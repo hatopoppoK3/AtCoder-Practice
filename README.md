@@ -3,13 +3,13 @@
 ## 目的
 きょうぎぷろぐらみんぐをがんばる
 
-##ABC
+## ABC
 AtCoder Beginner Contestのやつ
 
-##iroha contest
+## iroha contest
 いろはちゃんコンテスト(2019/5/1~2019/5/4)の一部
 
-##practice contest
+## practice contest
 最初にやるやつ
 
 ## 更新履歴
