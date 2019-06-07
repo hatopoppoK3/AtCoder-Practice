@@ -3,8 +3,19 @@ using namespace std;
 
 int main()
 {
-    int a, b, h;
-    cin >> a >> b >> h;
-    cout << (a + b) * h / 2 << endl;
+    int N, K, X, Y, ans = 0;
+    cin >> N >> K >> X >> Y;
+    for (int i = 0; i < N; i++)
+    {
+        if (i < K)
+        {
+            ans += X;
+        }
+        else
+        {
+            ans += Y;
+        }
+    }
+    cout << ans << endl;
     return 0;
 }
