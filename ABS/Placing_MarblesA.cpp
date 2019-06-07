@@ -3,7 +3,8 @@
 #include <algorithm>
 using namespace std;
 
-int main () {
+int main()
+{
     char s[3];
     cin >> s;
     cout << count(s, s + 3, '1') << endl;

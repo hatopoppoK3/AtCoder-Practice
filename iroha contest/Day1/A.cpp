@@ -2,10 +2,11 @@
 #include <string>
 using namespace std;
 
-int main(void){
+int main()
+{
     string str;
-    cin>>str;
-    cout<<str[0]<<endl;
+    cin >> str;
+    cout << str[0] << endl;
 
     return 0;
 }

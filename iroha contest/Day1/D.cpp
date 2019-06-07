@@ -3,30 +3,38 @@
 #include <algorithm>
 using namespace std;
 
-int main(void) {
+int main()
+{
     int N, X, Y;
     cin >> N >> X >> Y;
     vector<int> v(N);
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++)
+    {
         cin >> v[i];
     }
     sort(v.begin(), v.end());
     reverse(v.begin(), v.end());
-    for (int i = 0; i < N; i++) {
-        if (i % 2 == 0) {
+    for (int i = 0; i < N; i++)
+    {
+        if (i % 2 == 0)
+        {
             X += v[i];
         }
-        else {
+        else
+        {
             Y += v[i];
         }
     }
-    if (X > Y) {
+    if (X > Y)
+    {
         cout << "Takahashi" << endl;
     }
-    else if (X < Y) {
+    else if (X < Y)
+    {
         cout << "Aoki" << endl;
     }
-    else {
+    else
+    {
         cout << "Draw" << endl;
     }
 

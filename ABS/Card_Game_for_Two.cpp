@@ -2,21 +2,26 @@
 #include <algorithm>
 using namespace std;
 
-int main () {
+int main()
+{
     int N;
     int A[101];
     int score_A = 0, score_B = 0, ans = 0;
     cin >> N;
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++)
+    {
         cin >> A[i];
     }
     sort(A, A + N);
     reverse(A, A + N);
-    for (int i = 0; i < N; i++) {
-        if (i % 2 == 0) {
+    for (int i = 0; i < N; i++)
+    {
+        if (i % 2 == 0)
+        {
             score_A += A[i];
         }
-        else {
+        else
+        {
             score_B += A[i];
         }
     }

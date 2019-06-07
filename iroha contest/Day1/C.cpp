@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main(void){
+int main()
+{
     int day;
     cin >> day;
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 8; i++)
+    {
         cout << day + i - 7 << endl;
     }
 

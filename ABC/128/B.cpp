@@ -4,11 +4,13 @@
 #include <algorithm>
 using namespace std;
 
-int main() {
+int main()
+{
     int N;
     pair<string, pair<int, int>> sp[100];
     cin >> N;
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++)
+    {
         string str;
         int p;
         cin >> str >> p;
@@ -18,7 +20,8 @@ int main() {
     }
     sort(sp, sp + N);
 
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++)
+    {
         cout << sp[i - 1].second.second << endl;
     }
 

@@ -2,19 +2,23 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main()
+{
     string str;
     int x, y;
     cin >> x >> y;
     cin >> str;
     y = y - 1;
-    if (str[y] == 'A') {
+    if (str[y] == 'A')
+    {
         str[y] = 'a';
     }
-    else if (str[y] == 'B') {
+    else if (str[y] == 'B')
+    {
         str[y] = 'b';
     }
-    else if (str[y] == 'C') {
+    else if (str[y] == 'C')
+    {
         str[y] = 'c';
     }
     cout << str << endl;
