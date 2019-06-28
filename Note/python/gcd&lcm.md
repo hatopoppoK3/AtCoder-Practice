@@ -1,7 +1,7 @@
 # 最大公約数と最小公倍数
 
 ## きっかけ
-2019/6/23に行われた[AtCoder Beginner ContestのC問題](https://atcoder.jp/contests/abc131/tasks/abc131_c)。
+2019/6/23に行われた[AtCoder Beginner Contest131のC問題](https://atcoder.jp/contests/abc131/tasks/abc131_c)。
 
 ## ソースコード
 python3.4.3
