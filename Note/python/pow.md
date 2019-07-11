@@ -1,11 +1,11 @@
 # pow
 
 ## きっかけ
-[AtCoder Beginner Contest055のその余りを求めることができるtcoder.jp/contests/abc055/tasks/abc055_b)。
+[AtCoder Beginner Contest055](https://atcoder.jp/contests/abc055/tasks/abc055_b)のその余りを求めることができる。
 
 ## ソースコード
 python3.4.3
-~~~ruby
+~~~python
 from math import factorial
 
 N = 10000

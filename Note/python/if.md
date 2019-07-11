@@ -3,7 +3,7 @@
 ## コード
 python3.4.3
 上が通常のif文、下が三項演算子
-~~~ruby
+~~~python
 if n == 3:
     print("Yes")
 else:
