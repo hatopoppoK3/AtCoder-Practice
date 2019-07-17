@@ -4,9 +4,13 @@
 sortはalgorithmライブラリの中にある。sort(初期地点のイテレータ,終点地点のイテレータ)で基本的に実装できる。これを実行すると、指定したvectorが昇順にソートされる。
 
 ## ソースコード
-[AtCoder Beginner Contest067のB問題](https://atcoder.jp/contests/abc067/tasks/abc067_b)
+[AtCoder Beginner Contest067のB問題](https://atcoder.jp/contests/abc067/tasks/abc067_b)  
+このコードでは降順にソートをしている。
 ~~~c++
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <numeric>
 using namespace std;
 
 int main()
