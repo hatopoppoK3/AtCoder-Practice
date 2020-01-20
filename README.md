@@ -12,4 +12,5 @@
 ## ToDo
 - [ABC099 C - Strange Bank](https://atcoder.jp/contests/abc099/tasks/abc099_c)
 - [Educational DP D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)
-- [Typical DP Contest A - コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)
+- ~~[Typical DP Contest A - コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)~~
+- [Typical DP Contest D - サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)
