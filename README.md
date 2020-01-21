@@ -14,3 +14,4 @@
 - [Educational DP D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)
 - ~~[Typical DP Contest A - コンテスト](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)~~
 - [Typical DP Contest D - サイコロ](https://atcoder.jp/contests/tdpc/tasks/tdpc_contest)
+- [第１０回日本情報オリンピック 予選（オンライン） D - 1年生 (A First Grader)](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_d)
