@@ -2,5 +2,4 @@
 *.exe
 *.pdf
 *.code-workspace
-sample.cpp
 .mypy_cache
