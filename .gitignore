@@ -3,5 +3,6 @@
 *.pdf
 *.code-workspace
 .mypy_cache
+.venv
 Pipfile
 Pipfile.lock
